@@ -17,7 +17,7 @@ app.get('/users', (request, response) => {
     return response.json({ message: 'Hello World' })
     //response.send("Hello World");
 });
-app.use(errorHandler);
+app.use(process.env.PORT || errorHandler);
 
 
 app.listen(3333);
