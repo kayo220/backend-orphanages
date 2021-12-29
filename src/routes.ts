@@ -8,6 +8,10 @@ import { DEFAULT_MAX_VERSION } from 'tls';
 const routes = Router();
 const upload = multer(uploadConfig);
 routes.get('/orphanages', OrphanagesController.index);
+routes.get('/', function (req, res) {
+    res.send('hello world');
+});
+
 routes.get('/orphanages/:id', OrphanagesController.show);
 routes.post('/orphanages', upload.array('images'), OrphanagesController.create);
 
