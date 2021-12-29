@@ -20,5 +20,5 @@ app.get('/users', (request, response) => {
 app.use(errorHandler);
 
 
-app.listen(process.env.PORT || 3333);
+app.listen(process.env.PORT || 3333, () => console.log(`Servidor rodando na porta ${process.env.PORT}`));
 //localhost:3333
