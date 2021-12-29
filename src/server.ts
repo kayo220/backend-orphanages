@@ -8,7 +8,7 @@ import errorHandler from './errors/handler'
 
 const app = express();
 app.use(cors(
-    //{origin:[]} pode pasar a orgem do frontend que fará a requisição
+    { origin: ['https://nlw-kayo-happy.herokuapp.com/'] } pode pasar a orgem do frontend que fará a requisição
 ));
 app.use(express.json());
 app.use(routes);
