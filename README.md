@@ -2,7 +2,8 @@
 ## Projeto do NLW (Kayo Costa)
 
 O orphanages é um projeto criado através do Evento Next Level Week, responsável por cadastrar orfanatos em diversas localidades.
-[Projeto Online](https://tellzir-frontend-kayo.herokuapp.com/)
+
+[Projeto Online](https://nlw-kayo-happy.herokuapp.com/) - Às vezes o primeiro carregamento demora um pouco (hospedagem gratuita) 
 
 ## Funcionalidades
 
